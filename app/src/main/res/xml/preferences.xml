@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:key="@string/lpLoremType_key"
+        android:defaultValue="@string/prefLoremType_defaultValue"
+        android:dialogTitle="@string/prefLoremType_title"
+        android:entries="@array/prefLoremType_entries"
+        android:entryValues="@array/prefLoremType_entryValues"
+        android:icon="@drawable/ic_wrap_text_black_24dp"
+        app:useSimpleSummaryProvider="true"
+        android:title="@string/prefLoremType_title"/>
+</PreferenceScreen>

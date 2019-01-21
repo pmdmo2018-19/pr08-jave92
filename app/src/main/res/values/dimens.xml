@@ -1,3 +1,7 @@
 <resources>
     <!-- TODO -->
+    <dimen name="main_txtLorem_padding">12dp</dimen>
+    <dimen name="fragment_main_fab_elevation">6dp</dimen>
+    <dimen name="activity_main_fab_transz">12dp</dimen>
+    <dimen name="main_collapsingToolbar_titleMarginStart">32dp</dimen>
 </resources>
